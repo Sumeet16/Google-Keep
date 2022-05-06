@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-heading{
+    width: 100%;
+    height: 90px;
+    background-color: #fdb716;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+    padding: 20px 40px;
+    color: #fff;
+}
+
+.notes_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-title-div{
+    width: 30%;
+    height: 30vh;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    margin: 30px auto;
+    padding: 15px 0 0 15px;
+    position: relative;
+}
+
+#title, #disc{
+    outline: none;
+    border: none;
+    font-size: 30px;
+    font-weight: 700;
+    color: gray;
+}
+
+#disc{
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+    margin-top: 20px;
+}
+
+#Button{
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    bottom: -30px;
+    right: 20px;
+    background-color: #fff;
+}
+
+.plus_sign, .delete-sign{
+    color: #fdb716;
+}
+
+.note{
+    width: 22%;
+    height: 200px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    position: relative;
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 2rem;
+}
+
+.note-heading{
+    width: 90%;
+    font-size: 20px;
+    font-weight: 800;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.note-disc{
+    width: 90%;
+    font-size: 15px;
+    font-weight: 500;
+    color: gray;
+    padding-left: 20px;
+    padding-top: 10px;
+}
